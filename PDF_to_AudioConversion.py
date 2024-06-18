@@ -2,7 +2,7 @@
 pip install PyPDF2 gtts
 
 import PyPDF2
-from gtts import gTTS
+from gtts import gTTS # gTTS = "google Text-to-Speech"
 import os
 
 def pdf_to_audio(pdf_path, audio_path, language='en'):
